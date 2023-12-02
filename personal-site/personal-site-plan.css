@@ -5,25 +5,25 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #2E4D66   ;
-  --secondary-color: #1C0B19 ;
-  --accent1-color: #4EA699;
-  --accent2-color: #EFC69B;
+  --primary-color: #383F4A   ;
+  --secondary-color: #F5CB94 ;
+  --accent1-color: #7C81A6;
+  --accent2-color: black;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon SC";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #2E4D66;  /* headlines on a white background */ 
+  --headline-color-on-white: #383F4A;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #2E4D66; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #EFC69B; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #2E4D66  ;
-  --nav-link-color: #2E4D66;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #2E4D66;
+  --paragraph-color-on-white: #383F4A; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #F5CB94; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #383F4A;
+  --nav-link-color: #F5CB94;
+  --nav-background-color: #383F4A;
+  --nav-hover-link-color: black;
+  --nav-hover-background-color: #7C81A6;
 }
 
 
@@ -39,6 +39,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  height: 500px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
