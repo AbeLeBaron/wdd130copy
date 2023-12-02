@@ -95,10 +95,6 @@ footer a:hover{
     width: 80px;
     border-radius: 50px
 }
-.icon{
-    width: 80px;
-    padding: 10px;
-}
 #hero-img{
     width: 100%;
 }
@@ -168,7 +164,7 @@ nav {
         grid-row: 5/8
     }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 871px) {
     #hero, .home-grid {
         display: block;
         height: auto;
