@@ -136,6 +136,61 @@ nav {
     grid-template-columns: repeat(10, 1fr);
 }
 
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #F5CB94;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: none;
+    justify-self: center;
+    align-self: center;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #383F4A;
+    min-width: 160px;
+    box-shadow: -5px -5px 10px #6f7364;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #F5CB94;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #B3C5D6;
+    color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #766764;
+    color: white;
+}
+
+
 @media screen and (max-width: 1030px) {
     .inside{
         grid-row: 9/10;
@@ -159,8 +214,7 @@ nav {
         flex-direction: column;
     }
     nav a {
-        display: block;
-        padding: 15px;
+        display: none;
     }
     #background {
         display: none;
@@ -175,5 +229,10 @@ nav {
     }
     footer {
         margin-top: 25px;
+    }
+    .dropdown {
+        display: inline-block;
+        grid-column: 4/5;
+        grid-row:1/2;
     }
 }
